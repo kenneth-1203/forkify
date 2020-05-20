@@ -1,4 +1,7 @@
 import axios from 'axios';
+import { elements, elementStrings } from '../views/base';
+
+elements.searchInput.focus();
 
 export default class Search {
     constructor(query) {
